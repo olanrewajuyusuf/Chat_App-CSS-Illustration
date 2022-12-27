@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+.app {
+  width: 100%;
+  background: hsl(0, 0%, 100%);
+  position: relative;
+  overflow: hidden;
+}
+.div {
+  position: absolute;
+  width: 470px;
+  height: 80vh;
+}
+.left {
+  background: linear-gradient(
+    25deg,
+    hsl(264, 100%, 61%) 30%,
+    hsl(293, 100%, 63%)
+  );
+  top: 0;
+  left: -280px;
+  border-radius: 0 0 500px 500px;
+  z-index: 1;
+}
+.right {
+  background: hsl(270, 20%, 96%);
+  bottom: 0;
+  right: -290px;
+  border-radius: 500px 500px 0 0;
+  z-index: 1;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px auto;
+  z-index: 4;
+  position: relative;
+}
+.phone-container {
+  width: 260px;
+  height: 570px;
+  border-radius: 30px;
+  box-shadow: 0 0 50px 10px hsla(264, 100%, 61%, 0.5);
+  margin-bottom: 3rem;
+}
+.phone {
+  width: 100%;
+  height: 100%;
+  background: hsl(270, 20%, 96%);
+  margin: 0px auto 0;
+  border-radius: 30px;
+  box-shadow: 0 0 0 10px white;
+  position: relative;
+  overflow: hidden;
+}
+.phone .head {
+  width: 150px;
+  height: 30px;
+  background: white;
+  border-radius: 18px;
+  position: absolute;
+  top: -10px;
+  left: 55px;
+}
+.profile {
+  background: linear-gradient(45deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: white;
+  height: 80px;
+}
+.profile .profile-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 10px 10px;
+}
+.profile img {
+  width: 35px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-left: 5px;
+}
+.profile .name {
+  margin-left: 10px;
+}
+.chatting {
+  position: absolute;
+  bottom: 65px;
+}
+.chat,
+.price {
+  width: 63%;
+  font-size: 10px;
+  line-height: 15px;
+}
+.left-chat p {
+  width: 100%;
+  padding: 5px 0;
+}
+.left-chat {
+  background: hsl(206, 6%, 79%);
+  color: hsl(276, 55%, 52%);
+  margin: 10px 0 10px 10px;
+  border-radius: 15px 15px 15px 5px;
+  padding: 0 10px;
+}
+.third-left-chat {
+  margin-top: 170px;
+}
+.right-chat {
+  float: right;
+  background: white;
+  color: hsl(271, 15%, 43%);
+  margin: 0 10px 10px 0;
+  border-radius: 15px 15px 5px 15px;
+  padding: 0 10px;
+}
+.last-right {
+  font-size: 10px;
+}
+.price-div,
+.button,
+.image,
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image {
+  width: 68%;
+  padding: 0;
+  background: transparent;
+}
+.right-chat img {
+  width: 50px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.price {
+  width: 75%;
+  color: hsl(270, 20%, 96%);
+  background: linear-gradient(45deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  margin: 10px 0 10px 10px;
+  border-radius: 15px 15px 15px 5px;
+}
+.price-div div {
+  width: 15px;
+  height: 15px;
+  border: 2px solid hsl(289, 100%, 72%);
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.price span {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  margin-right: 15px;
+}
+.button {
+  width: 93%;
+  background: white;
+  justify-content: space-between;
+  border-radius: 30px;
+  padding: 3px 0;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.button p {
+  color: hsl(0, 0%, 78%);
+  margin-left: 30px;
+  font-size: 12px;
+}
+.button .send-button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: hsl(271, 36%, 24%);
+  margin-right: 5px;
+}
+.container .content {
+  /* width: 350px; */
+  margin: 0 auto;
+  text-align: center;
+  color: hsl(270, 7%, 64%);
+  line-height: 25px;
+}
+.container .content h1 {
+  color: hsl(271, 36%, 24%);
+  font-size: 40px;
+}
+.container .content p {
+  margin: 0 30px;
+}
+
+@media (min-width: 850px) {
+  .app {
+    height: 800px;
+  }
+  .left {
+    left: -100px;
+    height: 800px;
+  }
+  .right {
+    right: -180px;
+    height: 800px;
+  }
+  .container {
+    width: 65%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .phone-container {
+    margin: 20px 0 0 55px;
+  }
+  .container .content {
+    text-align: left;
+    width: 100%;
+    margin-left: 20px;
+    line-height: 30px;
+  }
+  .container .content p {
+    margin: 0;
+  }
+  .div {
+    height: 110vh;
+  }
+}
