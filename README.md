@@ -21,7 +21,7 @@ Users can be able to:
 
 ## My process
 
-Bulding this Chat-Illustration app from scartch with HTML and CSS
+Bulding this Chat-Illustration app from scartch with React JSX and vanilla CSS
 
 ### Built with
 
@@ -30,6 +30,7 @@ Bulding this Chat-Illustration app from scartch with HTML and CSS
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
 
 ### What I learned
 
@@ -42,8 +43,8 @@ As we always strive to get better, we normally learn something in the process
 ## Author
 
 - Designer - [Waliyyullah Olanrewaju Yusuf](olanrewajuyusuf280@gmail.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@olanrewajuyusuf](https://www.frontendmentor.io/profile/olanrewajuyusuf)
+- Twitter - [@WaliyyullahY](https://www.twitter.com/WaliyyullahY)
 
 ## Acknowledgments
 
