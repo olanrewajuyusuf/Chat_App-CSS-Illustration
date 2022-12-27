@@ -16,8 +16,8 @@ Users can be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/olanrewajuyusuf/Chat_App-CSS-Illustration)
+- Live Site URL: (https://mellow-kitten-4958a8.netlify.app)
 
 ## My process
 
